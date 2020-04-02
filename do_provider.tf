@@ -4,20 +4,11 @@
 variable "do_token" {}
 
 # do region
-variable "region" {
-  type = string
-  default = "fra1"
-}
+variable "region" {}
 
 # make sure to generate a pair of ssh keys
-variable "pub_key" {
-  type = string
-  default = "ssh_key/terraform_key.pub"
-}
-variable "pvt_key" {
-  type = string
-  default = "ssh_key/terraform_key"
-}
+variable "pub_key" {}
+variable "pvt_key" {}
 
 # setup the provider
 provider "digitalocean" {
