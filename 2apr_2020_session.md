@@ -44,7 +44,7 @@ terraform plan
 
 Apply changes --> actually create the cloud environment
 ```bash
-terraform
+terraform apply
 ```
 
 Destroy all of the infrastructure
