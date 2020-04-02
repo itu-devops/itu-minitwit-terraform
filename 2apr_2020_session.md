@@ -1,3 +1,6 @@
+
+( All files from this session is available here: https://github.com/itu-devops/itu-minitwit-terraform )
+
 # Terraform
 
 Terraform is an Infrastructure-as-Code tool from Hashicortp (who also makes vagrant). Terraform allows us to provision our entire cloud infrastructure, across multiple cloud providers, and keep the configuration as code!
@@ -10,6 +13,17 @@ https://www.terraform.io/docs/index.html
 
 Terraform is open source!
 https://github.com/hashicorp/terraform
+
+## Terraform vs vagrant
+
+```
+"The primary usage of Terraform is for managing remote resources in cloud providers such as AWS. Terraform is
+designed to be able to manage extremely large infrastructures that span multiple cloud providers. Vagrant is
+designed primarily for local development environments that use only a handful of virtual machines at most."
+
+Vagrant is for development environments. Terraform is for more general infrastructure management.
+```
+(Hashicorp: https://www.vagrantup.com/intro/vs/terraform.html)
 
 ## Declarative Cloud Environment
 
